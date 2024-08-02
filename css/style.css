@@ -478,15 +478,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 568px) {
+@media (min-width: 768px) {
   .container {
-    max-width: 568px;
+    max-width: 768px;
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1020px) {
   .container {
-    max-width: 720px;
+    max-width: 1020px;
   }
 }
 
@@ -1025,7 +1025,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 500ms;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1020px) {
   .bg-hero {
     width: 2000px;
     height: 300px;
@@ -1168,7 +1168,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
-@media (min-width: 568px) {
+@media (min-width: 768px) {
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -1212,10 +1212,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:w-1\/5 {
-    width: 20%;
   }
 
   .md\:flex-row {
@@ -1281,7 +1277,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1020px) {
   .lg\:top-24 {
     top: 6rem;
   }
